@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+  }
+  
+  .headerbackground{
+    width: 92px;
+    height: 50px;
+    margin-top: .5rem;
+  }

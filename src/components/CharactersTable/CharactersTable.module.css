@@ -1,0 +1,79 @@
+.categories {
+  display: flex;
+  padding: 20px;
+}
+
+.categories button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.categories_photo {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.categories_name,
+.categories_tvshows{
+  flex: 4;
+  color: var(--text-color);
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details{
+  display: flex;
+  padding: 20px;
+
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--text-color);
+
+  background-color: var(--background-color-light);
+  border-radius: 20px;
+  height: 80px;
+  margin-bottom: 50px;
+
+  box-shadow: var(--box-shadow);
+  font-weight: 500;
+
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+.details:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  flex: 4;
+  text-align: center;
+}
+
+.tvshows {
+  flex: 4;
+}
+
+.photo {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.photo img {
+  border-radius: 40px;
+  width: 75px;
+  height: 67px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 720px) {
+  .photo,
+  .categories_photo {
+    display: none;
+  }
+}

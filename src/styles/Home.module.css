@@ -1,0 +1,26 @@
+.inputContainer {
+  margin-bottom: 40px;
+}
+
+.backgroundcontainer{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.background{
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  .inputContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input {
+    flex: 2;
+  }
+}
